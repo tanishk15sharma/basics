@@ -4,7 +4,9 @@ import GreetName from "./components/greet";
 function App() {
   return (
     <div className="App">
-      <GreetName />
+      <GreetName name="tanishk" />
+      <GreetName name="suraj " />
+      <GreetName name="kanha" />
     </div>
   );
 }
