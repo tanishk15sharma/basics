@@ -1,7 +1,14 @@
 import React from "react";
 
 const greetName = (props) => {
-  return <h1>hello {props.name} </h1>;
+  return (
+    <div>
+      {props.children}
+      <h1>
+        hello {props.name} is {props.relation}{" "}
+      </h1>
+    </div>
+  );
 };
 
 export default greetName;
