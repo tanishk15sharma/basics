@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 // import GreetName from "./components/greet";
-// import SubscribeMsg from "./components/subscribe";
-import Btnclick from "./components/btnclick";
+
+import Btnclick from "./components/clickevent";
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,6 @@ function App() {
         <button>button</button>{" "}
       </GreetName>
       <GreetName name="kanha" relation="best friend" /> */}
-      {/* <SubscribeMsg /> */}
     </div>
   );
 }
