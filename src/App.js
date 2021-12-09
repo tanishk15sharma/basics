@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
-import GreetName from "./components/greet";
+// import GreetName from "./components/greet";
+// import SubscribeMsg from "./components/subscribe";
+import Btnclick from "./components/btnclick";
 function App() {
   return (
     <div className="App">
-      <GreetName name="tanishk" relation="myself">
+      <Btnclick />
+      {/* <GreetName name="tanishk" relation="myself">
         {" "}
         <p>This is myself practicing react</p>
       </GreetName>
@@ -12,7 +15,8 @@ function App() {
         {" "}
         <button>button</button>{" "}
       </GreetName>
-      <GreetName name="kanha" relation="best friend" />
+      <GreetName name="kanha" relation="best friend" /> */}
+      {/* <SubscribeMsg /> */}
     </div>
   );
 }
