@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 // import GreetName from "./components/greet";
-import NameList from "./components/mapmethod";
-
+// import NameList from "./components/mapmethod";
+import NamelistIndex from "./components/Indexkey";
 // import Btnclick from "./components/clickevent";
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <NamelistIndex />
+      {/* <NameList /> */}
       {/* <Btnclick /> */}
       {/* <GreetName name="tanishk" relation="myself">
         {" "}
