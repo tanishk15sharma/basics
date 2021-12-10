@@ -5,12 +5,14 @@ import "./App.css";
 // import NamelistIndex from "./components/Indexkey";
 // import Btnclick from "./components/clickevent";
 // import StyleSheet from "./components/stylesheet";
-import Inline from "./components/inline";
+import ClickCounter from "./components/clickCounter";
+// import Inline from "./components/inline";
 function App() {
   return (
     <div className="App">
       {/* <StyleSheet primary={true} /> */}
-      <Inline />
+      <ClickCounter />
+      {/* <Inline */}
       {/* <NamelistIndex /> */}
       {/* <NameList /> */}
       {/* <Btnclick /> */}
