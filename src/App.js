@@ -6,12 +6,14 @@ import "./App.css";
 // import Btnclick from "./components/clickevent";
 // import StyleSheet from "./components/stylesheet";
 import ClickCounter from "./components/clickCounter";
+import HoverCounter from "./components/hoverCounter";
 // import Inline from "./components/inline";
 function App() {
   return (
     <div className="App">
       {/* <StyleSheet primary={true} /> */}
       <ClickCounter />
+      <HoverCounter />
       {/* <Inline */}
       {/* <NamelistIndex /> */}
       {/* <NameList /> */}
