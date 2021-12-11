@@ -5,15 +5,19 @@ import "./App.css";
 // import NamelistIndex from "./components/Indexkey";
 // import Btnclick from "./components/clickevent";
 // import StyleSheet from "./components/stylesheet";
-import ClickCounter from "./components/clickCounter";
-import HoverCounter from "./components/hoverCounter";
+// import ClickCounter from "./components/clickCounter";
+// import HoverCounter from "./components/hoverCounter";
 // import Inline from "./components/inline";
+
 function App() {
   return (
     <div className="App">
       {/* <StyleSheet primary={true} /> */}
-      <ClickCounter />
-      <HoverCounter />
+
+      {/* <UserProvider value="tanishk"></UserProvider> */}
+
+      {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
       {/* <Inline */}
       {/* <NamelistIndex /> */}
       {/* <NameList /> */}
