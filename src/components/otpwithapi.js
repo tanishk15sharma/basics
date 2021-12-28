@@ -3,7 +3,7 @@ import axios from "axios";
 
 const GetOtpHandler = () => {
   const [name, setName] = useState("");
-  const [storeName, setStoreName] = useState("");
+  const [submitOtp, setSubmitOtp] = useState("");
   const [otp, setOpt] = useState("");
 
   let url = "https://otpgenerator.ishanjirety.repl.co/get-otp?name=";
@@ -14,6 +14,15 @@ const GetOtpHandler = () => {
       // console.log(response);
     });
     // console.log({ name });
+  };
+
+  const checkOtp = () => {
+    console.log({ submitOtp });
+    if (name == submitOtp) {
+      alert("correct");
+    } else {
+      alert("wrong");
+    }
   };
 
   return (
@@ -30,7 +39,15 @@ const GetOtpHandler = () => {
       <h1>{otp}</h1>
       <h2>SUBMIT OTP</h2>
       <label>OTP:</label>
-      <input type="text" placeholder="submit your OTP" />
+      <input
+        type="text"
+        placeholder="submit your OTP"
+        value={submitOtp}
+        onChange={(e) => {
+          setSubmitOtp(e.target.value);
+        }}
+      />
+      <button onClick={checkOtp}>CHECK</button>
     </div>
   );
 };
