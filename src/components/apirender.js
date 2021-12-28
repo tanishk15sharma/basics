@@ -15,7 +15,21 @@ const Apihandler = () => {
       });
   }, []);
 
-  return <div> {state.map((data) => data.item)} </div>;
+  return (
+    <div>
+      <br></br>
+      {/* <pre> {JS
+      ON.stringify(state, null, 2)} </pre>
+      */}
+      <ul>
+        {state.map((item) => (
+          <li>
+            {item.id} {item.item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default Apihandler;
