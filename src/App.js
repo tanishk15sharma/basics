@@ -9,6 +9,7 @@ import StyleSheet from "./components/stylesheet";
 import ClickCounter from "./components/clickCounter";
 import HoverCounter from "./components/hoverCounter";
 import Inline from "./components/inline";
+import AxiosHandler from "./components/apiaxios";
 
 function App() {
   return (
@@ -16,14 +17,14 @@ function App() {
       {/* <StyleSheet primary={true} /> */}
 
       {/* <UserProvider value="tanishk"></UserProvider> */}
-
+      <AxiosHandler />
       {/* <ClickCounter /> */}
       {/* <HoverCounter /> */}
       {/* <Inline */}
       {/* <NamelistIndex /> */}
       {/* <NameList /> */}
       {/* <Btnclick /> */}
-      <Apihandler />
+      {/* <Apihandler /> */}
       {/* <GreetName name="tanishk" relation="myself">
         
         <p>This is myself practicing react</p>

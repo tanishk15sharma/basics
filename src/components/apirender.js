@@ -18,9 +18,8 @@ const Apihandler = () => {
   return (
     <div>
       <br></br>
-      {/* <pre> {JS
-      ON.stringify(state, null, 2)} </pre>
-      */}
+      {/* <pre> {JSON.stringify(state, null, 2)} </pre>
+       */}
       <ul>
         {state.map((item) => (
           <li>
