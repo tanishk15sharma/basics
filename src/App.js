@@ -1,15 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
-import Apihandler from "./components/apirender";
-import GreetName from "./components/greet";
-import NameList from "./components/mapmethod";
-import NamelistIndex from "./components/Indexkey";
-import Btnclick from "./components/clickevent";
-import StyleSheet from "./components/stylesheet";
-import ClickCounter from "./components/clickCounter";
-import HoverCounter from "./components/hoverCounter";
-import Inline from "./components/inline";
-import AxiosHandler from "./components/apiaxios";
+// import Apihandler from "./components/apirender";
+// import GreetName from "./components/greet";
+// import NameList from "./components/mapmethod";
+// import NamelistIndex from "./components/Indexkey";
+// import Btnclick from "./components/clickevent";
+// import StyleSheet from "./components/stylesheet";
+// import ClickCounter from "./components/clickCounter";
+// import HoverCounter from "./components/hoverCounter";
+// import Inline from "./components/inline";
+// import AxiosHandler from "./components/apiaxios";
+import GetOtpHandler from "./components/otpwithapi";
 
 function App() {
   return (
@@ -17,9 +18,11 @@ function App() {
       {/* <StyleSheet primary={true} /> */}
 
       {/* <UserProvider value="tanishk"></UserProvider> */}
-      <AxiosHandler />
+      {/* <AxiosHandler /> */}
       {/* <ClickCounter /> */}
       {/* <HoverCounter /> */}
+      <GetOtpHandler />
+
       {/* <Inline */}
       {/* <NamelistIndex /> */}
       {/* <NameList /> */}
