@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const AxiosHandler = () => {
-  const [state, setstate] = useState("");
-  const url = "https://quick-access-api.desaihetav.repl.co/";
+  const [state, setstate] = useState([]);
+  //   const url = "https://quick-access-api.desaihetav.repl.co/";
+  const url = "https://mock-practice.prakhar10v.repl.co/items";
 
   const getApi = () => {
     axios.get(url).then((response) => {
@@ -16,7 +17,14 @@ const AxiosHandler = () => {
     <div>
       axios
       <button onClick={getApi}>get api</button>
-      {state.message}
+      <br></br>
+      <ul>
+        {state.map((item) => (
+          <li>
+            {item.id} {item.item}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
