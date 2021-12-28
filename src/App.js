@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
-// import GreetName from "./components/greet";
-// import NameList from "./components/mapmethod";
-// import NamelistIndex from "./components/Indexkey";
-// import Btnclick from "./components/clickevent";
-// import StyleSheet from "./components/stylesheet";
-// import ClickCounter from "./components/clickCounter";
-// import HoverCounter from "./components/hoverCounter";
-// import Inline from "./components/inline";
+import Apihandler from "./components/apirender";
+import GreetName from "./components/greet";
+import NameList from "./components/mapmethod";
+import NamelistIndex from "./components/Indexkey";
+import Btnclick from "./components/clickevent";
+import StyleSheet from "./components/stylesheet";
+import ClickCounter from "./components/clickCounter";
+import HoverCounter from "./components/hoverCounter";
+import Inline from "./components/inline";
 
 function App() {
   return (
@@ -22,12 +23,13 @@ function App() {
       {/* <NamelistIndex /> */}
       {/* <NameList /> */}
       {/* <Btnclick /> */}
+      <Apihandler />
       {/* <GreetName name="tanishk" relation="myself">
-        {" "}
+        
         <p>This is myself practicing react</p>
       </GreetName>
       <GreetName name="shivani" relation="sister">
-        {" "}
+        
         <button>button</button>{" "}
       </GreetName>
       <GreetName name="kanha" relation="best friend" /> */}
